@@ -123,7 +123,38 @@ Operational dashboard showing inpatient dominance, medication burden impact, and
 | Documentation | GitHub Markdown |
 
 ---
-
+## Repository Structure
+```
+healthcare-readmission-analytics/
+├── README.md
+├── data/
+│ ├── raw/
+│ │ ├── healthcare_raw.csv
+│ │ ├── README_dataset_info.txt
+│ │ └── DATA_ACCESS_NOTE.txt
+│ └── processed/
+│ ├── healthcare_processed.csv
+│ └── README_placeholder.txt
+├── sql/
+│ └── sql_healthcare_readmission.sql
+├── python/
+│ └── healthcare_eda_feature_engineering.ipynb
+├── docs/
+│ ├── images/
+│ │ ├── columns_dropped.png
+│ │ ├── sql-sample-query.png
+│ │ ├── correlation_py.png
+│ │ ├── healthcare-executive-overview.png
+│ │ ├── patient-risk-stratification.png
+│ │ └── operational-utilization-insights.png
+│ └── report/
+│ └── healthcare_readmission_report.pdf
+├── src/
+│ ├── README_placeholder.txt
+│ └── prompts_used.txt
+└── LICENSE
+```
+---
 ## Dataset Information
 
 - Rows: 101,766  
