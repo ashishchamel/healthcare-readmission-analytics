@@ -190,4 +190,4 @@ https://www.linkedin.com/in/ashish-chamel
 
 ---
 
-Data earns trust through reproducibility — show the steps, show the results.
+Data earns trust through reproducibility - show the steps, show the results.
